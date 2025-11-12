@@ -34,7 +34,7 @@ const ColorPaletteGenerator = () => {
 
     try {
       const res = await axios.post(
-        'https://coooooodingggprojects.onrender.com/get-colors',
+        'https://rajat567-smartcolorpalletegenerator.hf.space/get-colors',
         formData
       );
       setPalette(res.data.palette);
